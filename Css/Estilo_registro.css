@@ -1,0 +1,64 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+}
+
+body {
+
+	background-color: #efefef; 
+}
+
+h1{
+	margin: 0;
+}
+
+header {
+	background-color: #364552;
+	color: white;
+	padding: 2rem 2rem; 
+	text-align: center;
+}
+
+
+.conteiner {
+  width: 400px;  /* Ajusta el ancho del contenedor */
+  margin: 70px auto;  /* Centra el contenedor */
+  padding: 20px;  /* Espaciado interno */
+  border: 2px solid black;  /* Borde negro */
+  border-radius: 10px;  /* Bordes redondeados */
+}
+
+footer{
+	position: absolute;
+   bottom: 0; 
+   width: 100%; 
+   background-color: #364552;
+}
+
+footer p {
+	margin: 0;
+	color: #fff;
+}
+
+footer a {
+	transition: color 0.3s;
+	color: #fff;
+}
+
+footer a:hover {
+	color: cornflowerblue;
+}
+
+label, input{
+	display: inline-block;  /* Hace que la etiqueta no ocupe toda la línea */
+  	margin-bottom: 10px;  /* Reduce el espacio entre la etiqueta y el campo de entrada */
+}
+
+.regresar {
+	transition: color 0.3s;
+	color: #black;
+}
+
+section a:hover{
+	color: cornflowerblue;
+}

@@ -1,0 +1,104 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+}
+
+body {
+
+	background-color: #efefef; 
+}
+
+h1{
+	margin: 0;
+}
+
+header {
+	background-color: #364552;
+	padding: 1rem 2rem; 
+	text-align: center;
+}
+.h1_propio{
+	color: white;
+}
+
+
+#boton{
+ 	float: right;
+ 	margin-top: -25px; /* Ajusta según sea necesario */
+ 	font-size: 0.9rem;
+ 	margin-right: 8px;
+}
+
+#header_modal{
+	  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+header a:hover {
+	color: cornflowerblue;
+}
+
+
+footer{
+	position: absolute;
+   bottom: 0; 
+   width: 100%; 
+   background-color: #364552;
+}
+
+footer p {
+	margin: 0;
+	color: #fff;
+}
+
+footer a {
+	transition: color 0.3s;
+	color: #fff;
+}
+
+footer a:hover {
+	color: cornflowerblue;
+}
+
+#enviar {
+	display: inline-block;  /* Hace que la etiqueta no ocupe toda la línea */
+  	margin-bottom: 20px;  /* Reduce el espacio entre la etiqueta y el campo de entrada */
+  	margin-top: 10px;
+}
+
+.carousel {
+	padding-top: 2rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Reduce el área de las flechas */
+    opacity: 1; /* Asegura que sean visibles */
+}
+
+.carousel-control-prev {
+    left: 370px; /* Acerca la flecha izquierda */
+}
+
+.carousel-control-next {
+    right: 370px; /* Acerca la flecha derecha */
+}
+
+.login1 {
+ 	float: right;
+ 	margin-top: -25px; /* Ajusta según sea necesario */
+ 	font-size: 0.9rem;
+ 	margin-right: -10px;
+}
+
+#botonlogin{
+	 font-size: inherit;
+}
+
+#headerlogin{
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

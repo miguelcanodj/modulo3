@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inicio</title>
+	<link href="Css/boostrap.css" rel="stylesheet">
+	<script src="js/boostrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="Css/Estilo_index.css">
+</head>
+<body>
+	<center>
+		<header>
+			<h1 class="h1_propio">Bienvenido a mi blog</h1>
+			<!--<a id="registrarse" class="btn btn-primary" href="registro.html">Registrarse</a> <br> <br>-->
+			<!--<img src="Imagenes\carro.avif" width="800" height="400">-->
+			<div class="login1"> 
+				<!-- Button to Open the Modal -->
+				<button type="button" id="botonlogin"	class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+  			Login
+				</button>
+
+				<!-- The Modal -->
+				<div class="modal" id="myModal1">
+ 				<div class="modal-dialog">
+    		<div class="modal-content">
+
+      	<!-- Modal Header -->
+      	<div class="modal-header">
+      	<h4 id="headerlogin" class="modal-title">Login</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      	</div>
+
+      	<!-- Modal body -->
+      	<div class="modal-body">
+        	<form action="">
+        		<label>Usuario</label> <br>
+        		<input type="text" name="textlogin"> <br>
+        		<label>Password</label> <br>
+        		<input type="password" name="passwordlogin"> <br>
+        		<input id="enviar" class="btn btn-primary" type="submit">
+        	</form>
+      	</div>
+
+      	<!-- Modal footer -->
+     		<div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      	</div>
+
+    		</div>
+  			</div>
+				</div></div>  <!---***login***-->
+			<div class="Registrate">
+				<!-- Button to Open the Modal -->
+				<button id="boton" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  			Registrate</button>
+				<!-- The Modal -->
+				<div class="modal" id="myModal">
+ 			 	<div class="modal-dialog">
+   		 	<div class="modal-content">
+
+      	<!-- Modal Header -->
+      	<div class="modal-header">
+        <h4 id="header_modal" class="modal-title">Formulario</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      	</div>
+
+      	<!-- Modal body -->
+      	<div class="modal-body">
+						<form action="Login.html" method="POST">
+						<label>Nombre completo *</label> <br>
+						<input type="text" name="text" required> <br>
+						<label>Usuario *</label> <br>
+						<input type="text" name="text" required> <br>
+						<label>Correo electronico *</label> <br>
+						<input type="email" required> <br>
+						<label>Contraseña *</label> <br>
+						<input type="password" name="" required> <br> 
+						<input id="enviar" class="btn btn-primary" type="submit" name="">
+					</form>
+      	</div>
+
+      	<!-- Modal footer -->
+      	<div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      	</div>
+
+    		</div>
+  			</div>
+				</div> </div>	 <!---***registro***-->
+		</header>
+		<main>
+			<div id="carousel">
+			<!-- Carousel -->
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  		<!-- Indicators/dots -->
+  		<div class="carousel-indicators">
+    	<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    	<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    	<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+ 		 	</div>
+
+ 			<!-- The slideshow/carousel -->
+ 		 	<div class="carousel-inner">
+    	<div class="carousel-item active">
+      <img src="Imagenes/carro.avif" alt="Carro" class="img-fluid w-50 d-block">
+   		</div>
+    	<div class="carousel-item">
+    	  <img src="Imagenes/moto.jpg" alt="moto" class="img-fluid w-50 d-block">
+   	 	</div>
+    	<div class="carousel-item">
+      	<img src="Imagenes/robot.jpg" alt="robot" class="img-fluid w-50 d-block">
+    	</div>
+  		</div>
+  			<!-- Left and right controls/icons -->
+  			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  	  	<span class="carousel-control-prev-icon"></span>
+  			</button>
+  			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+   			 <span class="carousel-control-next-icon"></span>
+  			</button>
+			</div>
+			</div>
+		</main>
+		<footer>
+			<p>Copyriht 2024</p>
+			<a class="derecha" href="mailto:jorgemiguelca@gmail.com">Contacme aqui</a>
+		</footer>
+	</center>
+</body>
+</html>
